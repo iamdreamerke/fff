@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreamer Airlines: Book Your Dream Flight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+    <button class="b-home"><a href="home.html">Home </a></button>
+      <button class="b-about"> <a href="about_us.html">About Us</a></button>
+        <button class="b-destinations"><a href="destinations.html">Destinations</a></button>
+      <button class="b-booking"> <a href="booking.html">Booking</a></button>
+      <button class="b-privileged">  <a href="privileged_club.html">Privileged Club</a></button>
+      <button class="b-contact"> <a href="contact_us.html">Contact Us</a></button>
+      </em>
+          </nav>
+  </header>
+
+  <main>
+    <section class="booking">
+      <h1>Book Your Dream Flight</h1>
+      <form action="#">
+
+        <section class="search-criteria">
+          <label for="origin">Origin:</label>
+          <select id="origin" name="origin">
+            <option value="">Select City</option>
+            <option value="MOMBASA">Mombasa</option>
+            <option value="RIYADH">Riyadh</option>
+            <option value="DURBAN">Durban</option>
+          </select>
+
+          <label for="destination">Destination:</label>
+          <select id="destination" name="destination">
+            <option value="">Select City</option>
+            <option value="PARIS">Paris</option>
+            <option value="NEW YORK">New York</option>
+            <option value="CHICAGO">Chicago</option>
+            <option value="CAIRO">Cairo</option>
+            <option value="NAIROBI">Nairobi</option>
+            <option value="RIYADH">Riyadh</option>
+            <option value="DURBAN">Durban</option>
+            <option value="PORT LOUIS">Port Louis</option>
+          </select>
+
+          <label for="departure-date">Departure Date:</label>
+          <input type="date" id="departure-date" name="departure-date" required>
+
+          <label for="return-date" optional>Return Date:</label>
+          <input type="date" id="return-date" name="return-date" optional>
+
+          <label for="passengers">Number of Passengers:</label>
+          <input type="number" id="passengers" name="passengers" min="1" required>
+
+          <label for="Class">Select Class:</label>
+          <select id="Class" name="Class" required>
+            <option value="">Select Class</option>
+            <option value="Economy">Economy</option>
+            <option value="Business">Business</option>
+            <option value="First">First</option>
+          </select>
+
+          <button type="submit">Search Flights</button>
+        </section>
+
+        <section class="flight-results">
+          <h2>Available Flights (One-Way)</h2>
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Tail No</th>
+                <th scope="col">Plane Model</th>
+                <th scope="col">Capacity</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Departure Time</th>
+                <th scope="col">Arrival Time</th>
+                <th scope="col">Economy</th>
+                <th scope="col">Business</th>
+                <th scope="col">First</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>5Y-ABC</td>
+                <td>Boeing 737-800</td>
+                <td>189</td>
+                <td>Paris (ORY)</td>
+                <td>10:15</td>
+                <td>10:50</td>
+                <td>KSH 78,500</td>
+                <td>KSH 125,000</td>
+                <td>KSH 210,000</td>
+              </tr>
+              <tr>
+                <td>1XY-DEF</td>
+                <td>Airbus A320neo</td>
+                <td>180</td>
+                <td>New York (JFK)</td>
+                <td>14:00</td>
+                <td>16:35</td>
+                <td>KSH 95,200</td>
+                <td>KSH 158,000</td>
+                <td>KSH 245,000</td>
+              </tr>
+              <tr>
+                <td>7KE-GHI</td>
+                <td>Boeing 787 Dreamliner</td>
+                <td>330</td>
+                <td>Chicago (ORD)</td>
+                <td>18:30</td>
+                <td>20:00</td>
+                <td>KSH 82,100</td>
+                <td>KSH 134,000</td>
+                <td>KSH 220,000</td>
+              </tr>
+              <tr>
+                <td>5Y-JKL</td>
+                <td>Embraer 190</td>
+                <td>110</td>
+                <td>Cairo (CAI)</td>
+                <td>11:45</td>
+                <td>14:05</td>
+                <td>KSH 65,900</td>
+                <td>KSH 108,000</td>
+                <td>KSH 180,000</td>
+              </tr>
+              <tr>
+                <td>1XY-MNO</td>
+                <td>Bombardier Dash 8-Q400</td>
+                <td>78</td>
+                <td>Nairobi (JKIA)</td>
+                <td>09:30</td>
+                <td>10:20</td>
+                <td>KSH 48,200</td>
+                <td>KSH 82,000</td>
+                <td>KSH 135,000</td>
+              </tr>
+              <tr>
+                <td>5Y-PQR</td>
+                <td>Airbus A220</td>
+                <td>108</td>
+                <td>Riyadh (RUH)</td>
+                <td>13:15</td>
+                <td>17:00</td>
+                <td>KSH 69,800</td>
+                <td>KSH 112,000</td>
+                <td>KSH 187,000</td>
+              </tr>
+              <tr>
+                <td>1XY-STU</td>
+                <td>Boeing 757-200</td>
+                <td>234</td>
+                <td>Durban (DUR)</td>
+                <td>16:45</td>
+                <td>21:10</td>
+                <td>KSH 52,300</td>
+                <td>KSH 87,000</td>
+                <td>KSH 145,000</td>
+              </tr>
+              <tr>
+                <td>7KE-VWX</td>
+                <td>ATR 72-600</td>
+                <td>72</td>
+                <td>Port Louis (MRU)</td>
+                <td>12:00</td>
+                <td>15:15</td>
+                <td>KSH 75,400</td>
+                <td>KSH 123,000</td>
+                <td>KSH 205,000</td>
+              </tr>
+              <tr>
+                <td>5Y-YZ</td>
+                <td>De Havilland Dash 8-400</td>
+                <td>78</td>
+                <td>Mombasa (MBA)</td>
+                <td>10:45</td>
+                <td>12:00</td>
+                <td>KSH 42,100</td>
+                <td>KSH 70,000</td>
+                <td>KSH 118,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+    </form>
+  </section>
+</main>
+
+<footer class="copy-right">
+  <p>&copy; 2024 Dreamer Airlines</p>
+</footer>
+</body>
+</html>          

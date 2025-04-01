@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  
+  h1 {
+    
+    color:blue;
+font-size: 40px;
+font
+  }
+
+  
+  
+  h2{
+    color: blue;
+
+  }
+  .contact{
+    color: white;
+  }
+
+
+  .privileged-club{
+    color: white;
+  }
+  /*buttons*/
+.b-home{
+  background-color:  pink;
+  color: black;
+  border: 5px;
+  border-radius: 15px;
+  width: 160px;height: 35px;
+  font-weight: bold;
+  margin-right: 50px;
+  cursor: pointer;
+
+}
+.b-about{
+  background-color:  pink;
+  color: black;
+  border: 5px;
+  border-radius: 15px;
+  width: 160px;height: 35px;
+  font-weight: bold;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.b-destinations{
+  background-color: pink;
+  color: black;
+  border: 5px;
+  border-radius: 15px;
+  width: 160px;height: 35px;
+  font-weight: bold;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.b-booking{
+  background-color:pink ;
+  color: black;
+  border: 5px;
+  border-radius: 15px;
+  width: 160px;height: 35px;
+  font-weight: bold;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.b-privileged{
+  background-color: pink;
+  color: black;
+  border: 5px;
+  border-radius: 15px;
+  width: 160px;height: 35px;
+  font-weight: bold;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.b-contact{
+  background-color: pink;
+  color: black;
+  border: 5px;
+  border-radius: 15px;
+  width: 160px;height: 35px;
+  font-weight: bold;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+  /* Navigation */
+  .navigation{
+    font-size: larger;
+  text-align: center;
+  }
+
+
+.dreamer{text-align: center;
+}
+
+
+.text{text-align: center;}
+
+.team{text-align: center;}
+
+.commitment{text-align: center;}
+
+.list{text-align: center;}
+  
+  .copy-right{
+    color: red;
+    text-align: center;
+  }
+  
+  /* Hero Section (can be customized for each page) */
+  .hero {
+    text-align: center;
+    display: flex; /* Use flexbox for vertical centering (optional) */
+    flex-direction: column; /* Stack elements vertically (optional) */
+    align-items: center; /* Center elements horizontally (optional) */
+    justify-content: center; /* Center elements vertically within viewport (optional) */
+    min-height: 100vh; /* Set minimum height to cover viewport (optional) */
+    color: white;
+  }
+  
+  /* Navigation*/
+  
+  /* Booking Page Styles */
+  .flight-results table {
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Remove gaps between table cells */
+    font-family: monospace; /* Set font for table content */
+  }
+  
+  .flight-results th, .flight-results td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Add table borders */
+  }
+  
+  .flight-results tbody tr:nth-child(even) {
+    background-color: maroon; 
+  }
+  .booking{
+    color: white;
+  }
+  
+  .destinations{
+    color: white;
+  }
+  /* Background Images */
+  body {
+    background-image: url("images/take\ off.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .about{
+    color: white;
+    
+  }
+  
+  body.homepage {
+    background-image: url("images/take\ off.jpg"); 
+  }
+  
+  body.about_us-page {
+    background-image: url("images/take\ off.jpg"); 
+  }
+  
+  body.destinations-page {
+    background-image: url("images/take\ off.jpg"); 
+  }
+  
+  body.booking-page {
+    background-image: url("images/take\ off.jpg");
+  }
+  
+  body.privileged-club-page {
+    background-image: url("images/sky_view.jpg"); 
+  }
+  
+  body.contact_us-page {
+    background-image: url("images/take\ off.jpg");
+  }
+  .destinations{
+
+  }
